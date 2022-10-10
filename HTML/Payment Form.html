@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/payment Form.css">
+    <title>Payment Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Payment Form</h2>
+        <form action="*.php">
+            <hr>
+            <h4>Contact Information :-</h4>
+            <div>
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="DOB">Date Of Birth:</label>
+                <input type="date" name="dob" id="DOB" required>
+            </div>
+            <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <div>
+                    Male <input type="radio" name="gender" id="gender" required>
+                    Female <input type="radio" name="gender" id="gender" required>
+                    Other<input type="radio" name="gender" id="gender" required>
+                </div>
+            </fieldset>
+            <br> <br>
+            <div>
+                <label for="email">E-mail ID:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="mob">Mobile Number:</label>
+                <input type="number" name="mob.no" id="mob" required>
+            </div>
+            <br>
+            <div>
+                Address: <br><textarea name="adress" id="adress" cols="70" rows="5" required></textarea>
+            </div>
+            <br>
+            <div>
+                Pincode: <input type="number" name="pin" id="pin" required>
+            </div> <br>
+            <hr>
+            <h4>Verification Details :-</h4>
+            <label for="Select File Type :">Select File Type:</label>
+            <select name="docctyp" id="doccty">
+                <option value="--SELECT--">--SELECT--</option>
+                <option value="Aadhar Card">Aadhar Card</option>
+                <option value="Bank Account">Bank Account</option>
+                <option value="Caste Income Certificate">Caste Income Certificate</option>
+                <option value="Ration Card">Ration Card</option>
+            </select>
+            <br> <br>
+            <div>
+                <label for="inputfile">Upload File:</label>
+                <input type="file" name="inputfile" id="inputfile">
+            </div> <br>
+            <hr>
+            <h4>Payment Details :-</h4>
+            <div>
+                <label for="paypurpose">Payment Purpose:</label>
+                <select name="paypurpose" id="paypurpose" required>
+                    <option value="--SELECT--" selected>--SELECT--</option>
+                    <option value="Annual Tution Fee">Annual Tution Fee</option>
+                    <option value="Exam Fees">SEE Fees</option>
+                    <option value="Sports Fee">Sports Fee</option>
+                    <option value="NSS Fees">NSS Fees</option>
+                    <option value="misc Fee">Other Purpose</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Amount">Amount:</label>
+                <input type="number" name="Amount" id="Amount">
+            </div>
+            <br>
+            <div>
+                Card types:
+                <select name="card typ" id="card typ">
+                    <option value="Default" selected>--Select a Card Type--</option>
+                    <option value="RuPay">RuPay</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Mastercard">Mastercard</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Card Number: <input type="number" name="card_no" id="card_no" required>
+            </div>
+            <br>
+            <div>
+                Expiry Date: <input type="date" name="exp_date" id="exp_date" required>
+            </div>
+            <br>
+            <div>
+                CVV : <input type="password" name="CVV" id="CVV" required>
+            </div>
+            <br>
+            Terms & Conditions: <input type="checkbox" name="TnC" id="" checked> <small><small>Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit. Possimus, culpa voluptas. Incidunt consequuntur molestiae
+                    perferendis? Quidem totam dolore aspernatur sed aliquid? Voluptates, numquam
+                    eligendi.</small></small>
+            <br> <br>
+            <div id="buttons">
+                <input type="button" value="VERIFY">
+                <input type="submit" value="PAY NOW">
+                <input class="reset" type="reset" value="Clear Form">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

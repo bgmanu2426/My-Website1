@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    display: inline;
+    float: left;
+    margin-left: 41px;
+    margin-top: -15px;
+    height: 111px;
+    margin-right: -90px;
+}
+
+nav a:hover {
+    color: tomato;
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    float: left;
+}
+
+h3 {
+    padding-left: 40px;
+}
+
+.para {
+    background-image: url('');
+    background-size: 20%;
+    height: 400px;
+    background-repeat: no-repeat;
+    /*There are reapeat-x and reapeat-y */
+    background-position: center;
+    text-indent: 90px;
+    overflow: scroll;
+}
+
+p {
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+footer summary {
+    background-color: black;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+}
+
+details {
+    background-color: bisque;
+    line-height: 2;
+}
+
+footer details summary {
+    cursor: pointer;
+}
+
+input.btn {
+    position: relative;
+    margin-top: -37px;
+    margin-right: 16px;
+    background-color: yellow;
+    border: 1px solid rgb(36, 139, 10);
+    font-size: large;
+    cursor: pointer;
+    float: right;
+}
+
+input.btn:hover {
+    background-color: white;
+}
+.mailid{
+    text-decoration: none;
+}
+.mailid:after{
+    content: "(" attr(data-email) ")";
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    color: #666;
+}
