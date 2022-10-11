@@ -18,7 +18,7 @@ header {
     margin-right: -90px;
 } */
 
-nav {
+/* nav {
     background-color: black;
     overflow: hidden;
 }
@@ -28,9 +28,9 @@ nav a {
     color: white;
     padding: 15px;
     float: left;
-}
+} */
 
-a.onlinepay {
+/* a.onlinepay {
     padding: 4px 11px;
     margin: 8px;
     border-radius: 5px;
@@ -39,12 +39,12 @@ a.onlinepay {
     font-size: large;
     cursor: pointer;
     float: right;
-}
+} */
 
-nav a:hover {
+/* nav a:hover {
     color: tomato;
     background-color: rgb(216, 196, 171);
-}
+} */
 
 h3 {
     padding-left: 40px;
@@ -95,11 +95,7 @@ footer details summary {
     font-weight: bold;
     color: #666;
 }
+ul.dropdown-menu{
+    text-align: left;
+}
 
-@media screen and (max-width: 670px) {
-    nav{
-        display: flex;
-        flex-direction: column;
-        text-align: center;}
-        
-    }
