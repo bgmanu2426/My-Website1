@@ -95,3 +95,11 @@ footer details summary {
     font-weight: bold;
     color: #666;
 }
+
+@media screen and (max-width: 670px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;}
+        
+    }
