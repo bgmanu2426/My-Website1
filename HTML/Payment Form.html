@@ -10,9 +10,17 @@
 </head>
 
 <body>
+    <script>
+        function onClickSubmit() {
+            alert("Your Payment is completed!");     
+        }
+        function onClickReset() {
+            alert("Your Payment Form is cleared");     
+        }
+    </script>
     <div class="container">
         <h2>Payment Form</h2>
-        <form action="*.php">
+        <form action="#">
             <hr>
             <h4>Contact Information :-</h4>
             <div>
@@ -114,8 +122,8 @@
             <br> <br>
             <div id="buttons">
                 <input type="button" value="VERIFY">
-                <input type="submit" value="PAY NOW">
-                <input class="reset" type="reset" value="Clear Form">
+                <input type="submit" onclick="onClickSubmit()" value="PAY NOW">
+                <input class="reset" type="reset" onclick="onClickReset()" value="Clear Form">
             </div>
         </form>
     </div>
